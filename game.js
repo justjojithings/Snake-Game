@@ -8,7 +8,7 @@ const gameBoard = document.getElementById('game-board')
 
 function main(currentTime) {
     if (gameOver) {
-        if (confirm('Get fucked. Don\'t try again.')) {
+        if (confirm('Nice try! Give it another go!')) {
             window.location = '/'
         }
         return
